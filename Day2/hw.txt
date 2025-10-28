@@ -1,0 +1,24 @@
+Write a python script
+determine compound interest of an amount - A = P(1 + r/n)^nt
+    -->> The compound interest formula A = P(1 + r/n)^(nt) calculates the accumulated amount A after t years, where P 
+    is the principal, r is the annual interest rate, n is the number of compounding periods per year, and t is time in years.
+
+    -->> Compound interest is defined as a method to calculate interest on an initial amount plus the accumulated 
+        interest from previous years, using the formula CI = P[(1 + r)ⁿ - 1], where CI is compound interest, P is the 
+        initial amount, r is the annual interest rate, and n is the number of compounding years.
+
+deposited amount, interest rate, year 
+
+Write a python script
+find the area of a circle, triangle
+radius 
+
+Take a sentence from user, replace any 
+word related to "bad" with "good"
+
+this newline '\n' remove all the newlines
+and fullstop from the given sentence then split it.
+
+sentence = "Hello World.\n I am starting
+python Programming"
+

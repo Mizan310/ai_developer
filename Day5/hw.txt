@@ -1,0 +1,110 @@
+hw-1: validate multiple filetype at once, like image and 
+video 
+note: cannot use if-else ladder
+
+Sure ✅ — here’s a clean **text-only extraction** of all the questions (problems) and their **sample inputs/outputs** from the images:
+
+---
+
+## **Problem-1**
+
+Write a program that takes a list of integers and finds all the numbers that appear more than once. Print the repeated numbers and their frequencies.
+
+**Example:**
+
+```
+Input: [1, 2, 3, 2, 4, 5, 6, 5, 5, 7, 8]
+
+Output:
+Repeated numbers and their counts:
+2: 2
+5: 3
+```
+
+---
+
+## **Problem-2**
+
+Write a program that takes two lists of integers. Then, find and print:
+
+1. The elements common to both.
+2. The elements that are unique to each.
+
+**Example:**
+
+```
+Input: list1 = [1, 2, 3, 4], list2 = [3, 4, 5, 6]
+
+Output:
+Common elements: {3, 4}
+Unique to list1: {1, 2}
+Unique to list2: {5, 6}
+```
+
+---
+
+## **Problem-3**
+
+Write a function that accepts a string and counts the number of vowels (a, e, i, o, u, case-insensitive).
+
+**Example:**
+
+```
+Input: "Hello World from Python"
+
+Output:
+Number of vowels: 5
+```
+
+---
+
+## **Problem-4**
+
+You are given a list of tuples, where each tuple contains two items: a name (string) and a score (integer).
+Write a program that sorts the list of tuples based on the score in increasing order.
+
+**Example:**
+
+```
+Input: [('John', 85), ('Jane', 92), ('David', 78), ('Emily', 92)]
+
+Output: [('David', 78), ('John', 85), ('Jane', 92), ('Emily', 92)]
+```
+
+---
+
+## **Problem-5**
+
+Write a function that merges two dictionaries. Keys can be different. If a key exists in both dictionaries, sum their values.
+
+**Example:**
+
+```
+Input: d1 = {'a': 100, 'b': 200, 'c': 300}, d2 = {'a': 300, 'b': 200, 'd': 400}
+
+Output: {'a': 400, 'b': 400, 'c': 300, 'd': 400}
+```
+
+---
+
+## **Problem-6**
+
+Write a program that iterates through the numbers from a given list. Print "even" for even numbers and "odd" for odd numbers.
+
+**Example:**
+
+```
+Input: [4, 2, 7, 8, 1]
+
+Output:
+4: even
+2: even
+7: odd
+8: even
+1: odd
+```
+
+---
+
+Would you like me to make this into a **Markdown or text file** (like `.txt` or `.md`) for easy saving?
+

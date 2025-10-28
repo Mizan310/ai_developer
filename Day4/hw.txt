@@ -1,0 +1,11 @@
+h1- Write a  python function that will determine the input file type and obly accept specific file 
+types(video, image)
+h2- I am fjflkjggjklgjkgj gjfgjgjgkljgfkjg. ifhgfhgjkfhg. kjfjggjkfjg
+capitalize all the first character fo each sentence
+
+# String is a sequence type (character er por character that is why)
+# list,
+-> same thakle - homogenous, diff thakle heterogenous, 
+-> list is mutable
+
+# tuple

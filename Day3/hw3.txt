@@ -1,0 +1,4 @@
+Hw3
+Write a python function that will clean an input text as below 
+Remove any special character
+replace any word 
