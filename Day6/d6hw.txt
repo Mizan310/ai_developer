@@ -1,0 +1,25 @@
+hw-1
+
+hw-2
+you are given a list of numbers
+your output will be a list containing the indices of the odd numbers
+
+
+hw-3. You will be given an image as a 2d list. The pixel values can be in the range of [0,255] but sometime the range can be narrow. modify the given image so that:
+
+find absolute min and absolute max from the image
+use min-max normalization to scale the to range of [0, 255]
+
+Example:
+
+Original Image (narrow range): 
+[[100, 105, 110, 105] 
+[105, 115, 120, 115] 
+[110, 120, 125, 120] 
+[105, 115, 120, 115] ]
+
+Normalized Image (stretched to full range [0, 255]): 
+[[0, 51, 102, 51] 
+[51, 153, 204, 153] 
+[102, 204, 255, 204] 
+[51, 153, 204, 153]]
