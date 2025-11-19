@@ -8,7 +8,7 @@ def capitalize_sentences(text):
     # text = text.lower()
     # for char in special_chars:
     #     text = text.replace(char, " ")
-    sentences = text.split(".")
+    sentences = text.split(".") # split text into sentences, . is the delimiter.
     capitalize_sentences = [] # create a list to hold sentences
     for sentence in sentences:
         sentence = sentence.strip() # remove extra spaces
