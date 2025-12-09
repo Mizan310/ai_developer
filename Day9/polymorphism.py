@@ -11,7 +11,7 @@ car = vehicle("car", "runs")
 print(car)
 # inheritance
 class flying_vehicle(vehicle):
-    # polymorphism
+    # polymorphism: same function but different behavior
     def __init__(self, name, move, rotor_type):
         super().__init__(name, move) # Parent theke inherit kortechi, ba access kortechi
         self.rotor_type = rotor_type

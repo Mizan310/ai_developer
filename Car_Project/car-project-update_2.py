@@ -1,8 +1,7 @@
 from abc import ABC, abstractmethod
 
-# =========================
 # VEHICLE BASE CLASS
-# =========================
+
 class Vehicle(ABC):
     def __init__(self, category, price, quantity=1):
         self._category = category
@@ -29,10 +28,8 @@ class Vehicle(ABC):
     def decrease_quantity(self, amount=1):
         self._quantity -= amount
 
-
-# =============================
 # PRIVATE CAR CLASS
-# =============================
+
 class PrivateCar(Vehicle):
     def __init__(self, brand, model, color, seat, price, quantity=1):
         super().__init__("Private Car", price, quantity)
@@ -50,9 +47,8 @@ class PrivateCar(Vehicle):
                 f"CC: {self._cc}, Price: ${self._price}, Qty: {self._quantity}")
 
 
-# =============================
 # BUS CLASS
-# =============================
+
 class Bus(Vehicle):
     def __init__(self, company, seat, price, quantity=1):
         super().__init__("Bus", price, quantity)
@@ -67,10 +63,8 @@ class Bus(Vehicle):
         return (f"{self._company} Bus | Seats: {self._seat}, CC: {self._cc}, "
                 f"Price: ${self._price}, Qty: {self._quantity}")
 
-
-# =============================
 # TRUCK CLASS
-# =============================
+
 class Truck(Vehicle):
     def __init__(self, company, wheels, price, quantity=1):
         super().__init__("Truck", price, quantity)
@@ -85,10 +79,8 @@ class Truck(Vehicle):
         return (f"{self._company} Truck | Wheels: {self._wheels}, CC: {self._cc}, "
                 f"Price: ${self._price}, Qty: {self._quantity}")
 
-
-# =========================
 # CUSTOMER CLASS
-# =========================
+
 class Customer:
     def __init__(self, name, phone, address, nationality, item, qty, paid_amount):
         self.name = name
@@ -120,10 +112,8 @@ class Customer:
 
         print("==============================\n")
 
-
-# =========================
 # VEHICLE STORE
-# =========================
+
 class VehicleStore:
     def __init__(self):
         self.vehicles = []
@@ -178,10 +168,8 @@ class VehicleStore:
             else:
                 print("Invalid customer number.")
 
-
-# =========================
 # MAIN PROGRAM
-# =========================
+
 store = VehicleStore()
 
 store.add_vehicle(PrivateCar("Toyota", "Corolla", "Red", "4", 18000, 3))
@@ -256,36 +244,36 @@ while True:
             model = input("Model: ")
             color = input("Color: ")
             seat = input("Seat (4/7/10): ")
-            cc = input("Enter CC: ")     # <-- ADDED
+            cc = input("Enter CC: ")     
             price = float(input("Price: "))
             qty = int(input("Quantity: "))
 
             car = PrivateCar(brand, model, color, seat, price, qty)
-            car._cc = cc                 # <-- ADDED
+            car._cc = cc                 
             store.add_vehicle(car)
 
         # BUS
         elif vtype == "2":
             company = input("Company: ")
             seat = input("Seats (40/56): ")
-            cc = input("Enter CC: ")     # <-- ADDED
+            cc = input("Enter CC: ")     
             price = float(input("Price: "))
             qty = int(input("Quantity: "))
 
             bus = Bus(company, seat, price, qty)
-            bus._cc = cc                 # <-- ADDED
+            bus._cc = cc                 
             store.add_vehicle(bus)
 
         # TRUCK
         elif vtype == "3":
             company = input("Company: ")
             wheels = input("Wheels (6/10/12): ")
-            cc = input("Enter CC: ")     # <-- ADDED
+            cc = input("Enter CC: ")     
             price = float(input("Price: "))
             qty = int(input("Quantity: "))
 
             truck = Truck(company, wheels, price, qty)
-            truck._cc = cc               # <-- ADDED
+            truck._cc = cc               
             store.add_vehicle(truck)
 
         print("Vehicle Added Successfully!")
